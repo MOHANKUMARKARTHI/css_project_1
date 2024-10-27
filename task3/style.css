@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.outer > .card{
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 2px 3px 2px black;
+
+}
+header > i{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+main > p{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+footer > button{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.outer > #c1{
+    background-color: white;
+}
+
+.outer > #c2{
+    background-color: aqua;
+}
+
+.outer > #c3{
+    background-color: blueviolet;
+}
+

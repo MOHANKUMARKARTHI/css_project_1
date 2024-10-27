@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .outer {
+        height: 100vh;
+        background: linear-gradient(to right, blue, white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .outer > .inner {
+        height: 500px;
+        width: 500px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+     /* .outer > .inner:hover{
+        transform: translateX(300px);
+      }*/
+
+      .outer > .inner > .box{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        cursor: pointer;
+        transition: all 2s;
+      }
+
+      .outer > .inner >.box:hover{
+       /* transform: translateX(-200px);*/
+       /*transform: translateY(300px);*/
+       /* transform: translate(-100px,80px);*/
+       /* transform: rotate(360deg);*/
+       /*transform: scale(-3);*/
+       /*transform: skew(360deg);*/
+       transform-origin: top;
+       transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>

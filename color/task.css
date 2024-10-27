@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.outer{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.container1{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container2{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container3{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container4{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.container1 > h1{
+    color: blue;
+    display: inline-block;
+}
+.container2 > h1{
+    color: red;
+    display: inline-block;
+}
+
+.container3 > h1{
+    color: green;
+    display: inline-block;
+}
+
+.container4 > h1{
+    color: violet;
+    display: inline-block;
+}
+
+    
+.container1 > h1:hover{
+    color: black;
+}
+.container2 > h1:hover{
+    color: black;
+}
+
+.container3 > h1:hover{
+    color: black;
+}
+
+.container4 > h1:hover{
+    color: black;
+}
+

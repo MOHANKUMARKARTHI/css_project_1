@@ -1,0 +1,13 @@
+
+
+.container > h1{
+    border: 1px solid black;
+    border-width:medium ;
+    border-style: double;
+    border-color: red;
+    border-radius: 30px;
+    border-top: 5px solid red;
+    border-bottom:3px dotted green;
+    border-right: 10px double blue;
+    border-left: 2px dashed yellow;    
+}

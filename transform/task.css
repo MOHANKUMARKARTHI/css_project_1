@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+
+.outer > .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 50% ;
+    cursor: pointer;
+    
+    
+    
+}
+#box1{
+    transition: all 2s ease-in;
+}
+
+#box1:hover{
+    transform: translateX(90vw);
+}
+#box2{
+    transition: all 2s ease-out;
+}
+
+#box2:hover{
+    transform: translateX(90vw);
+}
+#box3{
+    transition: all 2s ease;
+}
+
+#box3:hover{
+    transform: translateX(90vw);
+}
+#box4{
+    transition: all 2s ease-in-out;
+}
+
+#box4:hover{
+    transform: translateX(90vw);
+}

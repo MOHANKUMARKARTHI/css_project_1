@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+   border: 5px solid green;
+}
+.container > box1{
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+    display: inline-block;
+}
+.container > box2{
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    display: inline-block;
+}
+container > box3{
+    height: 75px;
+    width: 75px;
+    background-color: violet ;
+    display: inline-block;
+}
+container > box4{
+    height: 75px;
+    width: 75px;
+    background-color: aqua;
+    display: none;
+}
+container > box5{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    display: inline-block;
+}

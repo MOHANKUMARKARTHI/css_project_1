@@ -1,0 +1,45 @@
+              /* ! color */ 
+.container1 > h1{
+    color: red;
+   
+}
+.container1 > a{
+    text-decoration:none ;
+}
+
+.container1 > h2{
+    /*text-decoration: underline;*/
+   /* text-decoration: overline;*/
+   text-decoration: line-through;
+   text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+            /* ! text align */
+.container1 > h3{
+    text-align: center;
+   
+}
+.container1 >p{
+   /* text-align: right;
+    text-align: justify;*/
+    text-align: center;
+}
+
+
+.container2 > p{
+    /*text-transform: capitalize;*/
+    /*text-transform: uppercase;*/
+    text-transform: lowercase;
+}
+            /* ! spacing property*/
+.container2 > #para2{
+    text-indent: 40px;
+    letter-spacing: 2px;
+    word-spacing: 19px;
+    line-height: 40px;
+}
+.container2 > h2{
+    color: green;
+    text-align: center;
+    text-shadow: 1px -2px 3px red;
+}

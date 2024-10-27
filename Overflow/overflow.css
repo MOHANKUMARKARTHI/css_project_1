@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer > .inner{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+
+    /* overflow: hidden;*/
+   /* overflow: scroll;*/
+   /*overflow-y:scroll;*/
+    overflow :auto ;
+}
+
+.inner > h1 {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: brown;
+    text-shadow: 2px 2px 2px black;
+}
+
+.inner > p{
+    font-size: 20px;
+}
+
+::-webkit-scrollbar{
+    overflow: hidden;
+}

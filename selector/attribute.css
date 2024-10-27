@@ -1,0 +1,17 @@
+.container >a [href] {
+    color: red
+}
+.container2 >a[target="_blank"]{
+    color: orange;
+}
+.container3 >input[type="text"]{
+    background-color: red;
+}
+
+.container3> input[type="tel"]{
+    background-color: green;
+}
+
+.container3 > input[type="password"]{
+    background-color: aquamarine;
+}

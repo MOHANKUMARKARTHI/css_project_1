@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 720px;
+    background-color: bisque;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .footer-right{
+    display: flex;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .outer{
+            height: 100vh;
+            display: flex;
+
+        }
+        .inner{
+            height: 600px;
+            width: 600px;
+            
+        }
+        .inner1{
+            height: 600px;
+            width: 600px;
+        }
+
+        .inner > .box1{
+            height: 300px;
+            width: 100%;
+            border: 2px solid red;
+        }
+        .inner > .box2{
+            height: 300px;
+            width: 100%;
+            border: 2px solid green;
+            margin-top: 5px;
+        }
+
+        .inner1 > .box3{
+            height: 100%;
+            width: 100%;
+            border: 2px solid blue;
+        }
+
+        @media (max-width:600px){
+            .outer{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="box1">
+                <h1>This is 1st para</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor eius a ipsam voluptatem autem.</p>
+            </div>
+            <div class="box2">
+                <h1>This is 2nd para</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor eius a ipsam voluptatem autem.</p>
+            </div>
+        </div>
+        <div class="inner1">
+            <div class="box3">
+                <h1>This is 3rd para</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor eius a ipsam voluptatem autem.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
